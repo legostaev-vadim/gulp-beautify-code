@@ -85,7 +85,7 @@ gulp.task('scripts', function () {
 
 ## Options
 
-**default**
+**Default**
 
 ```js
 .pipe(beautifyCode('html', {
