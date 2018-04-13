@@ -20,7 +20,7 @@ var beautifyCode = require('gulp-beautify-code');
 ```js
 gulp.task('pages', function () {
     return gulp.src('app/**/*.html')
-        .pipe(beautifyCode('html'))
+        .pipe(beautifyCode())
         .pipe(gulp.dest('dist'));
 });
 ```
@@ -30,7 +30,7 @@ gulp.task('pages', function () {
 ```js
 gulp.task('styles', function () {
     return gulp.src('app/**/*.css')
-        .pipe(beautifyCode('css'))
+        .pipe(beautifyCode())
         .pipe(gulp.dest('dist'));
 });
 ```
@@ -40,7 +40,7 @@ gulp.task('styles', function () {
 ```js
 gulp.task('scripts', function () {
     return gulp.src('app/**/*.js')
-        .pipe(beautifyCode('js'))
+        .pipe(beautifyCode())
         .pipe(gulp.dest('dist'));
 });
 ```
@@ -88,7 +88,7 @@ gulp.task('scripts', function () {
 **Default**
 
 ```js
-.pipe(beautifyCode('html', {
+.pipe(beautifyCode({
     indent_size: 4,
     indent_char: " ",
     unformatted: ["code", "pre", "em", "strong", "i", "b", "br", "span"]
