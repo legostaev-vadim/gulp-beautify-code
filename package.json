@@ -1,6 +1,6 @@
 {
   "name": "gulp-beautify-code",
-  "version": "1.0.1",
+  "version": "2.0.0",
   "description": "Plugin Gulp for decorating HTML CSS JS",
   "main": "index.js",
   "scripts": {
