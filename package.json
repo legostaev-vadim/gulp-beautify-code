@@ -1,0 +1,25 @@
+{
+  "name": "gulp-beautify-code",
+  "version": "1.0.0",
+  "description": "Plugin Gulp for decorating HTML CSS JS",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "gulp",
+    "beautify",
+    "html",
+    "css",
+    "js"
+  ],
+  "author": {
+    "name": "Legostaev Vadim",
+    "email": "legostaev.vadim@mail.ru"
+  },
+  "license": "ISC",
+  "dependencies": {
+    "js-beautify": "^1.7.5",
+    "through2": "^2.0.3"
+  }
+}
